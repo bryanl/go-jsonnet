@@ -25,7 +25,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/google/go-jsonnet/ast"
+	"github.com/ksonnet/ksonnet-lib/ksonnet-gen/ast"
 )
 
 func builtinPlus(e *evaluator, xp, yp potentialValue) (value, error) {

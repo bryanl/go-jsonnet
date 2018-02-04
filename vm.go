@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"runtime/debug"
 
-	"github.com/google/go-jsonnet/ast"
 	"github.com/google/go-jsonnet/parser"
+	"github.com/ksonnet/ksonnet-lib/ksonnet-gen/ast"
 )
 
 // Note: There are no garbage collection params because we're using the native

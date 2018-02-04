@@ -24,7 +24,7 @@ import (
 	"reflect"
 	"sort"
 
-	"github.com/google/go-jsonnet/ast"
+	"github.com/ksonnet/ksonnet-lib/ksonnet-gen/ast"
 )
 
 // TODO(sbarzowski) use it as a pointer in most places b/c it can sometimes be shared

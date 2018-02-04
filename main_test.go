@@ -27,7 +27,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/google/go-jsonnet/ast"
+	"github.com/ksonnet/ksonnet-lib/ksonnet-gen/ast"
 	"github.com/sergi/go-diff/diffmatchpatch"
 )
 
@@ -85,7 +85,7 @@ var jsonToString = &NativeFunction{
 }
 
 var nativeError = &NativeFunction{
-	Name: "nativeError",
+	Name:   "nativeError",
 	Params: ast.Identifiers{},
 	Func: func(x []interface{}) (interface{}, error) {
 		return nil, errors.New("Native function error")

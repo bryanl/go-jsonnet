@@ -19,7 +19,7 @@ package parser
 import (
 	"fmt"
 
-	"github.com/google/go-jsonnet/ast"
+	"github.com/ksonnet/ksonnet-lib/ksonnet-gen/ast"
 )
 
 //////////////////////////////////////////////////////////////////////////////

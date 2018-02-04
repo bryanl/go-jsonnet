@@ -19,7 +19,7 @@ package jsonnet
 import (
 	"fmt"
 
-	"github.com/google/go-jsonnet/ast"
+	"github.com/ksonnet/ksonnet-lib/ksonnet-gen/ast"
 )
 
 // evaluator is a convenience wrapper for interpreter

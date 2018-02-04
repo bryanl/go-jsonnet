@@ -16,7 +16,7 @@ limitations under the License.
 
 package jsonnet
 
-import "github.com/google/go-jsonnet/ast"
+import "github.com/ksonnet/ksonnet-lib/ksonnet-gen/ast"
 
 // RuntimeError is an error discovered during evaluation of the program
 type RuntimeError struct {

@@ -1,8 +1,8 @@
 package linter
 
 import (
-	"github.com/google/go-jsonnet/ast"
 	"github.com/google/go-jsonnet/parser"
+	"github.com/ksonnet/ksonnet-lib/ksonnet-gen/ast"
 )
 
 type vScope map[ast.Identifier]*Variable

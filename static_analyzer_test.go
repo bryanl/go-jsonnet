@@ -19,7 +19,7 @@ package jsonnet
 import (
 	"testing"
 
-	"github.com/google/go-jsonnet/ast"
+	"github.com/ksonnet/ksonnet-lib/ksonnet-gen/ast"
 )
 
 // func dummyNodeBase() astNodeBase {
