@@ -55,6 +55,7 @@ type NodeBase struct {
 	loc           LocationRange
 	context       Context
 	freeVariables Identifiers
+	scope         Scope
 }
 
 // NewNodeBase creates a new NodeBase from initial LocationRange and
