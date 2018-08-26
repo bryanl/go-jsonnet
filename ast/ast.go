@@ -43,6 +43,7 @@ type Node interface {
 	FreeVariables() Identifiers
 	SetFreeVariables(Identifiers)
 	SetContext(Context)
+	SetScope(scope Scope)
 }
 
 // Nodes represents a Node slice.
@@ -401,6 +402,12 @@ type LocalBind struct {
 	Variable Identifier
 	Body     Node
 	Fun      *Function
+
+	loc *LocationRange
+}
+
+func (lb *LocalBind) Loc() *LocationRange {
+	return lb.loc
 }
 
 // LocalBinds represents a LocalBind slice.
